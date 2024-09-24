@@ -1,15 +1,36 @@
+/* Color Theme Swatches in Hex 
+.Espresso-Coffee-Cup-With-Beans-On-Vintage-Table
+-1-hex { color: #D99B66; }
+.Espresso-Coffee-Cup-With-Beans-On-Vintage-Table
+-2-hex { color: #BFA995; }
+.Espresso-Coffee-Cup-With-Beans-On-Vintage-Table
+-3-hex { color: #593825; }
+.Espresso-Coffee-Cup-With-Beans-On-Vintage-Table
+-4-hex { color: #D9CCC5; }
+.Espresso-Coffee-Cup-With-Beans-On-Vintage-Table
+-5-hex { color: #401D15; }
+*/
+
 *{
     margin: 0;
     padding: 0;
 }
 
 header{
-    background-color: #401D15;
+    background-color: #D9CCC5;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo{
-    color: #D9CCC5;
     display: flex;
     align-items: center;
+}
+
+nav > a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #401D15;
 }
