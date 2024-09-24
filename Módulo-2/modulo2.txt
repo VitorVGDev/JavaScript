@@ -1,0 +1,3 @@
+Módulo 2: Lógica de Programação com JavaScript
+
+→ Estruturas de Decisão: if, else, else if

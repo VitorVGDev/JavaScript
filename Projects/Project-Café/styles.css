@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #401D15;
+    padding: 10px;
+}
+
+#logo{
+    color: #D9CCC5;
+    display: flex;
+    align-items: center;
+}

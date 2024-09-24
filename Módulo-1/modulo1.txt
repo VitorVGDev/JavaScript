@@ -1,0 +1,23 @@
+Módulo 1 - Introdução ao JavaScript
+- Tópicos que você vai aprender neste módulo:
+
+1. O que é JavaScript e onde ele é usado.
+2. Como incluir JavaScript em uma página HTML.
+3. O básico sobre alert, console.log, e funções simples.
+4. Declarar variáveis: var, let, e const.
+5. Tipos de dados (strings, números, booleanos, etc.).
+
+1. JavaScript é uma linguagem de programação de alto nível usada principalmente para adicionar interatividade às páginas da web. Ele é executado no navegador, mas também pode ser usado em servidores, como no Node.js.
+
+2. Para incluir JavaScript em uma página HTML, podemos usar a tag <script src="arquivo.js"></script>
+
+3. O básico sobre alert, console.log, e funções simples
+
+alert(): exibe uma caixa de alerta no navegador com uma mensagem.
+console.log(): imprime mensagens no console do navegador (muito útil para depuração).
+
+4. Declarar variáveis: var, let, e const
+
+- var: era usado anteriormente para declarar variáveis, mas possui escopo global ou de função, o que pode causar problemas.
+- let: é usado para declarar variáveis que podem mudar. Possui escopo de bloco, o que significa que está disponível apenas dentro do bloco onde foi declarada (delimitado por {}, como em um "if".).
+- const: é usada para variáveis que não podem mudar. Também possui escopo de bloco (delimitado por {}).

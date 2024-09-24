@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+#abstract-help{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#abstract-help:hover{
+    text-decoration: underline #4C5FD5;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(71, 71, 71, 0.541);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+#sign-in{
+    border: none;
+    background-color: #4C5FD5;
+    transition: 0.5s;
+}
+
+#sign-in:hover{
+    color: black;
+    background-color: #fff;
+}
+
+#abstract-icon{
+    display: flex;
+}
