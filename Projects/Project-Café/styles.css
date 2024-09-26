@@ -17,20 +17,51 @@
 }
 
 header{
-    background-color: #D9CCC5;
+    background-color: #d8c5bb;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Certifique-se de que o header fique acima de outros elementos */
 }
 
-#logo{
+#logo-div{
     display: flex;
     align-items: center;
 }
 
+#logo{
+    transition: 0.5s;
+}
+
+#logo:hover{
+    transform: scale(1.2);
+}
+
 nav > a{
-    margin-right: 10px;
+    margin-right: 20px;
     text-decoration: none;
     color: #401D15;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav > a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #401D15;
+}
+.page {
+    height: 100vh; /* Cada seção ocupa a tela inteira */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    opacity: 0; /* Todas as seções começam invisíveis */
+    background-color: rgb(245, 228, 205);
+
 }
